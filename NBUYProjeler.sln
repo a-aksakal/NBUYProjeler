@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OkulOtomasyonOOP", "OkulOtomasyonOOP", "{F448A165-7263-4E8F-B5B6-B84E37CBCD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulOtomasyonOOP_WFA", "OkulOtomasyonOOP_WFA\OkulOtomasyonOOP_WFA.csproj", "{35FCC159-2974-43C0-90AD-4018E782DB13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FCC159-2974-43C0-90AD-4018E782DB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FCC159-2974-43C0-90AD-4018E782DB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FCC159-2974-43C0-90AD-4018E782DB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FCC159-2974-43C0-90AD-4018E782DB13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35FCC159-2974-43C0-90AD-4018E782DB13} = {F448A165-7263-4E8F-B5B6-B84E37CBCD3A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36127844-1A9B-4853-B983-3444FB2A7732}
+	EndGlobalSection
+EndGlobal
