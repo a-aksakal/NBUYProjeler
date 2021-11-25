@@ -21,5 +21,10 @@ namespace OkulOtomasyonOOP_WFA.Model
             TCKN = tckn;
         }
 
+        public override string ToString()
+        {
+            return $"{Ad} - {Soyad} - {Telefon} - {TCKN}";
+        }
+
     }
 }

@@ -18,12 +18,11 @@ namespace OkulOtomasyonOOP_WFA
         {
             InitializeComponent();
         }
+        public DbContext DbContext { get; set; }
 
-        private DbContext _dbContext;
-        
         private void OgrenciGoster_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = _dbContext.Ogrenciler;
+            listBox1.DataSource = DbContext.Ogrenciler.ToList();
         }
     }
 }

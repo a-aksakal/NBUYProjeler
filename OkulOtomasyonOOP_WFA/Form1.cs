@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OkulOtomasyonOOP_WFA.Model;
+using OkulOtomasyonOOP_WFA.Data;
 
 namespace OkulOtomasyonOOP_WFA
 {
@@ -23,11 +24,13 @@ namespace OkulOtomasyonOOP_WFA
             
         }
 
+        public DbContext DbContext = new DbContext();
         private void öğrenciEkleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OgrenciEkle ogrenciEkle = new OgrenciEkle();
             ogrenciEkle.MdiParent = this;
             ogrenciEkle.Dock = DockStyle.Fill;
+            ogrenciEkle.DbContext = DbContext;
             ogrenciEkle.Show();
 
         }
@@ -37,6 +40,7 @@ namespace OkulOtomasyonOOP_WFA
             OgrenciGoster ogrenciGoster = new OgrenciGoster();
             ogrenciGoster.MdiParent = this;
             ogrenciGoster.Dock = DockStyle.Fill;
+            ogrenciGoster.DbContext = DbContext;
             ogrenciGoster.Show();
         }
     }

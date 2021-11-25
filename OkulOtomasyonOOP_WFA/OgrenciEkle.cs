@@ -19,12 +19,16 @@ namespace OkulOtomasyonOOP_WFA
             InitializeComponent();
         }
 
-        private DbContext _dbContext = new DbContext();
+        
+
+        public DbContext DbContext { get; set; }
         private void btnEkle_Click(object sender, EventArgs e)
         {
             
             Ogrenciler ogrenciler = new Ogrenciler(txtAd.Text, txtSoyad.Text, txtTelefon.Text, txtTCKN.Text);
-            _dbContext.Ogrenciler.Add(ogrenciler);
+            DbContext.Ogrenciler.Add(ogrenciler);
+            
+            
         }
     }
 }

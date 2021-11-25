@@ -13,5 +13,7 @@ namespace OkulOtomasyonOOP_WFA.Model
         {
 
         }
+
+        
     }
 }
